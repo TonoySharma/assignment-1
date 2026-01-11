@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.font-inter-sans {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.btn{
+    background-color: green;
+    border: none;
+    padding: 12px 16px ;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white; 
+    cursor: pointer;    
+}
+
+nav{
+height: 90px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 16px 120px 16px 120px;
+background-color: rgb(255, 255, 255);
+
+}
+nav .menu{
+    display: flex;
+    list-style: none;
+    gap:32px
+}
+nav .menu a{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 152%;
+    color: black;
+    text-decoration: none;
+}
+
+.section-info{
+    max-width: 1280px;
+    text-align: center;
+}
+.section-info h1{
+    font-style: Bold;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+.section-info p{
+ font-size: 16px;
+ margin-bottom: 24px;
+ color: rgba(98, 115, 130, 1);
+}
+.section-text{
+    color: rgba(98, 115, 130, 1);
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+
+header{
+    background-image: url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 674px;
+}
+#banner{
+    margin: 90px 120px 157px;
+    align-items: center;
+    justify-content: center;
+    /* display: flex; */
+    
+}
+#banner .banner-img{
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;   
+}
+#banner .banner-containt h1{
+    margin-bottom: 16px;
+    text-align: center;
+}
+#banner .banner-containt p{
+    text-align: center;
+    font-size: 18px;
+    /* line-height: 24px; */
+    margin-bottom: 32px;   
+}
+#banner .hero-btn{
+    color: rgb(252, 253, 252);
+    background-color: green;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16.5px 16px ;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;    
+}
+#banner .primary{
+    color: #FFFFFF;
+    background-color: green;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16.5px 16px ;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+}
+.btn-container{
+    text-align: center;
+    
+}
+#about{
+    padding-top: 22px;
+}
+#about .about-container{
+   max-width: 1360px;
+   margin: 0 auto;
+   text-align: center;   
+}
+.section-heading p{   
+    font-size: 17px;
+    margin-bottom: 44px;
+    /* margin-top: 44px; */
+    line-height: 20px;
+    color:rgba(98, 115, 130, 1)
+    
+}
+.section-heading h1{
+    margin-bottom: 16px;
+    line-height: 58px;
+}
+#skills{
+    padding-top: 44px;
+}
+#skills .skills-card{
+  width: 70%;
+  max-width: 1300px;
+  margin: 0 auto;  
+}
+
+#skills .skills-box{
+ display: flex;
+ max-width: 800px;
+ margin: 0 auto;
+ gap: 24px;       
+}
+.skills-box .skills-card{
+    /* border: 1px solid red; */
+    padding: 24px;
+    box-shadow: 0 6px 50px 0 #6273821a;
+    max-width: 322px;  
+}
+.skills-card img{
+    max-width: 60px;
+    margin-bottom: 16px;
+}
+.skills-card h3{
+    font-size: 24px ;
+    color:black ;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.skills-card p{
+    font-size: 16px;
+    color: rgba(98, 115, 130, 1);
+    line-height: 20px;   
+}
+
+.solution-contenr{
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 60px;
+    display: flex;   
+}
+.solution-contenr ul{
+    list-style: none;
+    margin-top: 40px;
+    
+}
+.solution-content p{
+    font-size: 16px;
+    color: rgba(98, 115, 130, 1);
+    margin-top: 16px;
+}
+.solution-content h1{
+    text-align: left;
+    margin-top: 16px;
+}
+.khanowledge-png{
+    border: 1px solid rgb(250, 247, 247);
+    border-radius: 12px;
+    
+}  
+.clearly-container .section-info{
+   padding-top: 120px;
+} 
+
+.clearly-container{
+ width: 70%;
+ max-width: 1360px;
+ margin: 0 auto;
+ text-align: center;
+ background-color: rgba(247, 246, 242, 1);;
+ padding: 50px 40px;
+} 
+footer{
+    margin-top: 120px;
+     background-color: rgba(0, 25, 49, 1);
+    padding: 120px 0 ;
+}
+
+.footer-container{
+    
+  width: 70%;
+  max-width: 1360px;
+  margin: 0 auto;
+  
+
+}
+footer .footer-container{
+     font-size: 20px;
+     font-style: 500;
+     margin-bottom: 16px;
+      
+}
+.footer-container .icon a{
+    margin-right: 16px;
+}
+.footer-container .Social-link h3{
+  margin-bottom: 16px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright p{
+  width: o auto;
+  text-align: center;
+  margin-top: 110px 0;
+}
+
